@@ -37,14 +37,8 @@ cd ..
 
 ### Step 3: Run Training
 
-```bash
-python main_integrated.py \
-  --annovar_file data/sample_training_data.csv \
-  --string_file data/9606.protein.links.v12.0.txt \
-  --alias_file data/9606.protein.aliases.v12.0.txt \
-  --mm_genes_file data/mm_genes.txt \
-  --output_dir results/
-```
+<img width="777" height="683" alt="image" src="https://github.com/user-attachments/assets/1c6f703d-95a4-4c2c-9d75-90cf97b97065" />
+
 
 Training will take 30-60 minutes depending on:
 - Data size
@@ -53,13 +47,7 @@ Training will take 30-60 minutes depending on:
 
 ### Step 4: Use Your Trained Model
 
-```bash
-python test_model.py \
-  --test_file your_vus_data.csv \
-  --model_file results/trained_model.pkl \
-  --network_file results/network_data.pkl \
-  --output_dir test_results/
-```
+<img width="507" height="152" alt="image" src="https://github.com/user-attachments/assets/ee6a23aa-2944-4e95-8586-23297fe7c641" />
 
 ---
 
