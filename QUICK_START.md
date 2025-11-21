@@ -1,8 +1,7 @@
-# 🚀 Quick Start Guide
+# Start Guide
 
-Get started with MM-PathPredict in 5 minutes!
 
-## 📋 Prerequisites
+## Prerequisites
 
 ```bash
 # Install dependencies
