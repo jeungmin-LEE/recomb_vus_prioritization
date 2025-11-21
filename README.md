@@ -54,6 +54,7 @@ SLK       49    8.93           0.901
 - Python 3.8+
 - PyTorch 2.0+
 - See `requirements.txt` for full dependencies
+- https://drive.google.com/drive/folders/1lNBmFPeBedAV_PBIjohXkKaUZXqTD7HO?usp=drive_link
 
 ## Citation
 
