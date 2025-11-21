@@ -28,7 +28,7 @@ ANNOVAR-annotated CSV file with:
 
 - ***`AF_internal`: Internal cohort allele frequency.***
   In the sample dataset, `AF_internal` is set to missing (NA) because it depends on the user’s own cohort VCF/BGEN and cannot be computed from ClinVar or external reference files alone.  
-  When applying MM-PathPredict to your own data, you should calculate `AF_internal` from your cohort genotypes and merge it into the input table if needed.
+  When applying MM-PathPredict to your own data, you should calculate `AF_patient` from your cohort genotypes and merge it into the input table if needed.
 
 ## Output
 
