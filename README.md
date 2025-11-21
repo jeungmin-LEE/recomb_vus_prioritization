@@ -13,11 +13,10 @@ MM Vus Prioritization integrates ANNOVAR variant annotations with protein-protei
 
 ## Quick Start
 
-<img width="635" height="299" alt="image" src="https://github.com/user-attachments/assets/90b59dba-e0e4-4a00-848f-6ea9bdfb183a" />
+<img width="777" height="683" alt="image" src="https://github.com/user-attachments/assets/9c69cb8d-98f8-4567-aaf0-47d9093af574" />
 
-After installing the dependencies (`pip install -r requirements.txt`),  
-open the `.ipynb` files in this repository with Jupyter Notebook or JupyterLab  
-and run all cells from top to bottom in numerical filename order.
+This is the only part you need to edit; for everything else, simply open the `.ipynb` files in this repository with Jupyter and run all cells from top to bottom.
+
 
 ## Input Format
 
