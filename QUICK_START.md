@@ -60,10 +60,9 @@ Training will take 30-60 minutes depending on:
    - `pathogenic_proba`: 0-1 probability (for interpretation)
 
 2. **seed_gene_predictions.csv** - Variants in known MM genes
-   - DDB1, CRBN, BCL2, FGFR3, KRAS, NRAS, TP53, etc.
 
 3. **novel_gene_predictions.csv** - Candidate disease genes
-   - Filtered for super-hub genes (ribosomal, housekeeping)
+   - Filtered for super-hub genes (ubiquitin, ribosomal, housekeeping)
    - Sorted by ranking score
 
 4. **high_risk_predictions.csv** - Probability > 0.7
@@ -81,23 +80,8 @@ Training will take 30-60 minutes depending on:
 
 ### Using Your Own MM Genes
 
-Create a custom gene list:
-```
-# my_genes.txt
-KRAS
-NRAS
-TP53
-BRAF
-ATM
-...
-```
-
-Use it:
-```bash
-python predict_with_pretrained.py \
-  --vus_file your_data.csv \
-  --mm_genes my_genes.txt
-```
+Create a custom gene list and insert to there.
+<img width="659" height="226" alt="image" src="https://github.com/user-attachments/assets/8b3b7661-0876-467d-a20a-5b7ec565610f" />
 
 ### Large VUS Files
 
