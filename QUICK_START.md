@@ -81,6 +81,7 @@ Training will take 30-60 minutes depending on:
 ### Using Your Own MM Genes
 
 Create a custom gene list and insert to there.
+
 <img width="659" height="226" alt="image" src="https://github.com/user-attachments/assets/8b3b7661-0876-467d-a20a-5b7ec565610f" />
 
 ### Large VUS Files
